@@ -1,0 +1,18 @@
+h1{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+img{
+    box-shadow: 11px 11px 100px 20px grey;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+iframe{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 11px 11px 100px 20px grey;
+}
