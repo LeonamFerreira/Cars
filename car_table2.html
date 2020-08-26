@@ -5,10 +5,13 @@
         <style>
             h1{
                 text-align: center;
-                color: red;
+                color: blue;
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 30px;
                 font-weight: bold;
+                border: 5px dashed red;
+                background-color: yellow;
+                
             }
             table{
                border: 3px solid black; 
@@ -24,6 +27,11 @@
                 padding: 10px;
                 font-family: Arial, Helvetica, sans-serif;
                 color:black;
+            }
+            form{
+                text-align: center;
+                padding: 10px;
+                font-size: 30px;
             }
         </style>
     </head>
@@ -99,5 +107,19 @@
             </tbody>
             </table>
         </section>
+        <section>
+            <form action="#">
+                <input type="Text" placeholder="Model">
+                <input type="Text" placeholder="Manufacturer">
+                <input type="Text" placeholder="Dimensions (WxL) in m">
+                <input type="Text" placeholder="price (U$)">
+                <button type="submit">Submit</button>
+
+            </form>
+            <p>
+                <a href="https://www.automobiledimension.com/">Link to the website which shows the cars' dimensions.</a>
+            </p>
+        </section>
+        
     </body>
 </html>
